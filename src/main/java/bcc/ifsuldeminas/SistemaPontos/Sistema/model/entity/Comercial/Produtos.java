@@ -11,4 +11,18 @@ public class Produtos {
     private String nome;
     private int codigoProduto;
     private int estoqueInicial;
+
+    public Object getNome() {
+        return  this.nome;
+    }
+
+    public Object getEndereco() {
+        return this.getEndereco();
+    }
+
+    public void setEndereco(Object endereco) {
+    }
+
+    public void setNome(Object nome) {
+    }
 }

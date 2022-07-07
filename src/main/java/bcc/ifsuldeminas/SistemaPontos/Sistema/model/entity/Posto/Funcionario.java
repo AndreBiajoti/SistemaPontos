@@ -19,4 +19,15 @@ public class Funcionario {
     private String nome;
     private int telefone;
     private int identificacao;
+
+    public String setNome(Object nome) {
+        return this.nome;
+    }
+
+    public Object getNome() {
+        return nome;
+    }
+
+    public void setEndereco(Object endereco) {
+    }
 }

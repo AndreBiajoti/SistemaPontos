@@ -6,7 +6,7 @@ import java.util.Set;
 
 @Entity
 
-public class Compras  {
+public class Compras extends Produtos {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)

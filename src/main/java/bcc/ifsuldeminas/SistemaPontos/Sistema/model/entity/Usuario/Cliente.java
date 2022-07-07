@@ -21,10 +21,23 @@ public class Cliente  {
     private Set<bcc.ifsuldeminas.SistemaPontos.Sistema.model.entity.Posto.Abastecimento> Abastecimento;
 
     
-    private String nome;
-    private String endereco;
+    private String Nome;
+    private String Endereco;
     private int codigoFidelidade;
     private String senha;
 
 
+    public Object getNome() {
+        return this.Nome;
+    }
+
+    public void setNome(Object nome) {
+    }
+
+    public Object getEndereco() {
+        return  this.Endereco;
+    }
+
+    public void setEndereco(Object endereco) {
+    }
 }
